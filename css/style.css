@@ -196,6 +196,10 @@ footer {
   text-align: center;
 }
 
+.copyright{
+  color: lightgrey;
+}
+
 .footer-bottom::after {
   content: "";
   display: table;
