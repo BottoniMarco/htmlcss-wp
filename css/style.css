@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/wood.jpg");
+  height: 100vh;
+  padding: 20px 0;
+}
+
+
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  /* background: lightgrey; */
+}
+
+header {
+  background-image: url("../img/ndh.jpg");
+  width: 100%;
+  /* background-color: green; */
+}
+
+.header-top {
+  width: 100%;
+  height: 350px;
+  border: 10px solid white;
+  /* background: purple; */
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.logo-container img {
+  height: 150px;
+}
+
+.logo-container h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-bottom {
+  width: 100%;
+  background: grey;
+}
+
+
+ul#menu {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+ul#menu >li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+main {
+  width: 100%;
+  /* background-color: grey; */
+  margin: 10px 0;
+}
+main::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.left-col {
+  width: 20%;
+  background: white;
+  float: left;
+  border-radius: 8px;
+}
+#lt{
+  color: grey;
+  font-size: 35px;
+  line-height: 35px;
+  padding: 0 30px;
+  display: inline-block;
+}
+
+.fas fa-rss {
+}
+a {
+  color:green;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px
+}
+ul#links {
+  list-style: none;
+  height: 50px;
+  line-height: 16px;
+  text-align: left;
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  text-align: justify;
+}
+
+/* ul#links {
+  display: inline-block;
+  padding: 30px;
+} */
+
+.center {
+  width: 50%;
+  background: white;
+  float: left;
+  margin: 0 5%;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#ct{
+  color: grey;
+  text-transform: uppercase;
+}
+
+p {
+  color: black;
+}
+
+.right-col {
+  width: 20%;
+
+  /* background: lightblue; */
+  float: left;
+}
+
+.widget {
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.wt {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 20%;
+  background-color: white;
+}
+
+.footer-top{
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+
+.footer-bottom::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.icon-container {
+  color: lightgrey;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.icon-container i {
+  font-size: 30px;
+}
